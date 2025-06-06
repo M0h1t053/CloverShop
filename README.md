@@ -1,3 +1,3 @@
 # CloverShop
 CloverShop
-made by veliki Egor Gromov and ivanzolo(Kunaev Artem)
+made by yobaniy Egor Gromov and ahuenniy Artem velikiy XI
