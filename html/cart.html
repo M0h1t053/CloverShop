@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CloverShop - Корзина</title>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/responsive.css">
+    <script src="./js/cart.js"></script>
+    <img src="./images/logo.svg" alt="CloverShop" class="logo-img">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <a href="index.html" class="logo">
+                <img src="C:\Web-Dev\Cloverr\images/logo.svg" alt="CloverShop" class="logo-img">
+                <span>CloverShop</span>
+            </a>
+            <nav>
+                <a href="index.html">Главная</a>
+                <a href="products.html">Каталог</a>
+                <a href="cart.html" class="cart-link">
+                    Корзина <span class="cart-count">0</span>
+                </a>
+            </nav>
+        </div>
+    </header>
+
+    <section class="cart-page">
+        <div class="container">
+            <h1>Ваша корзина</h1>
+            
+            <div class="cart-items">
+                <!-- Товары в корзине загружаются через JS -->
+            </div>
+            
+            <div class="cart-summary">
+                <h2>Итого</h2>
+                <div class="summary-details">
+                    <p>Товары: <span id="subtotal">0</span> ₽</p>
+                    <p>Доставка: <span id="shipping">0</span> ₽</p>
+                    <p class="total">Всего: <span id="total">0</span> ₽</p>
+                </div>
+                <button class="btn" id="checkout">Оформить заказ</button>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>© 2025 CloverShop. Все права защищены.</p>
+            <p>Сделано с ❤️ для природы</p>
+        </div>
+    </footer>
+
+    <script src="C:\Web-Dev\Cloverr\js/main.js"></script>
+    <script src="C:\Web-Dev\Cloverr\js/cart.js"></script>
+</body>
+</html>

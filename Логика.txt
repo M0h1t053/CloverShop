@@ -1,0 +1,13 @@
+clovershop/
+├── index.html          # Главная страница
+├── products.html       # Страница каталога товаров
+├── cart.html           # Страница корзины
+├── css/
+│   ├── style.css       # Основные стили
+│   └── responsive.css  # Адаптивные стили
+├── js/
+│   ├── main.js         # Общие функции
+│   ├── cart.js         # Логика корзины
+│   └── products.js     # Логика каталога
+└── images/             # Папка для изображений
+    └── logo.svg        # Логотип CloverShop
